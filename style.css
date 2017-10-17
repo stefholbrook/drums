@@ -40,8 +40,15 @@ html {
   width: 48px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.07s;
   color: #fff;
   cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #c0ffee;
+  box-shadow: 0 0 10px #c0ffee;
 }
 
 kbd {
